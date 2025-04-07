@@ -5,7 +5,7 @@ Shasta-based long-read genome assembly with Medaka/Racon polishing, BRAKER3 anno
 Denovo assembly of franxious Manchurica reference genome using long-read Oxford nanopore datasets. 
 
 # Preprocessing steps
-![Read preprocessing](https://github.com/GeorgeKagugube/fraxinus-genome-assembly/blob/main/images/Overall%20assembly%20stages.jpeg)
+![Read preprocessing](https://github.com/GeorgeKagugube/fraxinus-genome-assembly/blob/main/images/Read%20preprocessing.jpeg)
 
 
 # The overall pipeline 
