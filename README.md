@@ -29,7 +29,7 @@ snakemake -n --use-conda
 
 # 2) execute with 32 cores (adjust as needed)
 snakemake --use-conda --cores 32
-
+```
 ---
 ##  Overview of Steps
 
@@ -72,7 +72,7 @@ cd Fmandshurica-genome-pipeline
 
 This workflow annotates the polished genome with **BRAKER3** (RNA‑seq + protein homology), then adds functional layers via 
 **InterProScan** and **eggNOG‑mapper**. It also supports optional **Liftoff** transfer from a close relative.
-
+```
 ## Inputs
 - Genome FASTA (soft‑masked is best).
 - RNA‑seq paired‑end FASTQs (edit `RNASEQ_LIBS` in Snakefile).
@@ -101,5 +101,5 @@ snakemake --use-conda --cores 32 03_braker/braker.gff3 03_braker/braker.proteins
 
 # Functional only (after BRAKER3)
 snakemake --use-conda --cores 16 04_function/functional_merged.tsv 04_function/functional_summary.png
-
+```
 
